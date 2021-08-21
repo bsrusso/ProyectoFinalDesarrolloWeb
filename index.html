@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITAS</title>
+    <meta name="description" content="Club deportivo y cultural en Buenos Aires, Zona Oeste">
+    <meta name="keywords" content="CLUB, ACTIVIDADES DEPORTIVAS, DEPORTE, FUTBOL, RUGBY, HOCKEY, CULTURAL">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="./favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header data-aos="fade-down">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid navcontainer">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/logo.png" class="logoClub img-fluid" alt="Logo SITAS"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/elClub.html">El Club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/institucional.html">Institucional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/actividades.html">Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/ubicacion.html">Ubicacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Carousel-->
+        <section id="hero">
+            <div style="max-height: 600px;" class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="./img/car-hockey.jpg" class="d-block w-100 imgCar" alt="Salida hockey">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="./img/car-futbol.jpg" class="d-block w-100 imgCar" alt="Equipo Futbol">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/car-rugby.jpg" class="d-block w-100 imgCar" alt="Jugada Rugby">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fin carousel-->
+        <!--navbar deportes-->
+        <nav class="navbar navbar-light navDeportes" data-aos="fade-right">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand" href="./deportes/futbol.html">
+                    <img src="./img/futbol.png" alt="" width="auto" height="24" class="d-inline-block align-text-top">
+                    Futbol
+                </a>
+                <a class="navbar-brand" href="./deportes/hockey.html">
+                    <img src="./img/hockey.png" alt="" width="auto" height="24" class="d-inline-block align-text-top">
+                    Hockey
+                </a>
+                <a class="navbar-brand" href="./deportes/rugby.html">
+                    <img src="./img/rugby.png" alt="" width="auto" height="24" class="d-inline-block align-text-top">
+                    Rugby
+                </a>
+                <a class="navbar-brand" href="./deportes/basquet.html">
+                    <img src="./img/basquet.png" alt="" width="auto" height="24" class="d-inline-block align-text-top">
+                    Basquet
+                </a>
+                <a class="navbar-brand" href="./deportes/tenis.html">
+                    <img src="./img/tenis.png" alt="" width="auto" height="24" class="d-inline-block align-text-top">
+                    Tenis
+                </a>
+            </div>
+        </nav>
+        <!--Fin navbar deportes-->
+        <section class="contenido">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 pb-4" id="section1" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <h1>Nuestras actividades</h1>
+                        <h5> <strong> Deportivas / Societarias / Culturales</strong></h5>
+                        <small>Nuestros socios del club cuentan con una gran oferta de actividades recreativas,
+                            culturales y
+                            deportivas para disfrutar</small>
+                        <br>
+                        <a href="./secciones/actividades.html">Ver todas →</a>
+                        <br><br>
+                        <h2>¡Estamos volviendo!</h2>
+                        <small>
+                            Con muchos cuidados, nuevas medidas de control, higiene y desinfección, hemos vuelto a la
+                            "normalidad" en nuestras actividades.
+                            #NosCuidamosEntreTodos.
+                        </small>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                        id="section2">
+                        <img src="./img/abrazoFutbol.jpg" alt="" style="width: 100%; max-height: 550px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid botonUnite ">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 text-center">
+                    <h2>¡Empezá Hoy!</h2>
+                    <p><strong>Un representante te contactará a la brevedad.</strong></p>
+                    <a href="./secciones/contacto.html">
+                        <button type="button" class="btn btn-success btn-lg">Unite al club →</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 style="color: green;">SITAS</h2>
+                    <p>
+                        Sociedad Italiana de Tiro al Blanco / Societa Italiana Di Tiro a Segno
+                        Av. Marconi 1225-C.P.(1684) - El Palomar - Bs. As. Tel.-Fax.: 4751-0471
+                        <br>
+                        <strong>Días y horarios de funcionamiento:</strong> <br>
+                        Martes a domingos de 08:00 a 22:30 / Vestuarios de 08:00 a 22:30 hs.
+                        <br>
+                        <strong>Estacionamiento:</strong> <br>
+                        Lunes de 07 :00 a 22:00 hs. Martes a Domingos: 07:00 a 23:00 hs
+                        Sábados, Domingos y Feriados Exclusivo para socios.
+                    </p>
+                    <h4>Suscribite al newsletter:</h4>
+                    <input type="mail" placeholder="Ingresa tu mail" class="inputMail"><br>
+                    <a href="#"><button class="btn btn-outline-success btn-sm">Suscribirme</button></a>
+                </div>
+                <div class="col-lg-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.468503535287!2d-58.58811356961622!3d-34.61759910326977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8682e244117%3A0xd459c1afde4574dc!2sS.I.T.A.S.!5e0!3m2!1ses!2sar!4v1627409671491!5m2!1ses!2sar"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <!--Fin footer-->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+
+    </script>
+</body>
+
+</html>

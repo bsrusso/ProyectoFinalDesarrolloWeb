@@ -1,0 +1,417 @@
+$colorSitas: rgb(9, 144, 9);
+
+*{
+    margin: 0;
+    padding: 0;
+    a{
+        text-decoration: none;
+    }
+    hr{
+        margin: 0;
+    }
+    h1{
+        color: $colorSitas;
+    }
+    h2{
+        color: $colorSitas;
+    }
+    #logoMain {
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portadaDeportes img {
+        width: 100%;
+    }
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .row {
+        --bs-gutter-x: 0;
+    }
+    .portadaDeportes img {
+        width: 100%;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: auto;
+        transition: .5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+/*404 pag*/
+.error404 {
+    background-color: $colorSitas;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-items: center!important;
+    align-items: center;
+    .error404msg {
+        color: white;
+        width: 100%;
+        max-width: 500px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        line-height: 1.5;
+        text-align: center;
+        padding: 30px;
+        h1{
+            color: white;
+        }
+    }
+}
+
+/*header*/
+header{
+        position: sticky;
+        top: -10px;
+        z-index: 999;
+        box-shadow: 0 8px 6px -6px black;
+        background-color: white;
+    .logoClub{
+        width: 125px;
+    }
+    .navcontainer {
+        background-color: white;
+    }
+    div ul li a &:hover {
+        font-weight: bold;
+    }
+    
+    li a &:hover {
+        transform: scale(1.2, 1.2);
+        color: $colorSitas!important;
+    }
+}
+
+/*footer*/
+footer{
+    padding-top: 30px;
+    .btn{
+        margin-bottom: 15px;
+    }
+    .inputMail {
+        margin-bottom: 10px;
+    }
+    h4{
+        color: $colorSitas;
+    }
+}
+
+/*index*/
+main{
+    #hero { /*carousel*/
+        height: auto;
+        .imgCar {
+            max-height: 40rem;
+        }
+    }
+    .navDeportes {
+        background: linear-gradient(90deg, rgba(63, 195, 33, 1) 0%, rgba(255, 255, 255, 1) 100%);
+        div a &:hover {
+            transform: scale(1.2, 1.2);
+        }
+    }
+    .contenido {
+        h1{
+            padding-top: 50px;
+        }
+        a{
+            color: $colorSitas;
+        }
+    }
+    .botonUnite {
+        background-image: url(../img/deportes2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+        h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px #58c858;
+        }
+        p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px #a8b8a7;
+        }
+    }
+}
+
+/*elClub*/
+main{
+    #elClub{
+        h1{
+            text-align: center;
+        }
+        .historiaClubIMG {
+            display: block;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .aContactanos {
+            text-align: center;
+            padding-bottom: 3rem;
+            a {
+                font-size: 1.5rem;
+                color: green;
+            }
+        }
+    }
+}
+
+/*institucional*/
+#mainInstitucional {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    .directivos {
+        margin-top: 30px;
+        h4{
+            color: $colorSitas;
+            font-weight: bold;
+        }
+        h5{
+            color: $colorSitas;
+            font-weight: bold;
+
+        }
+        p{
+            font-weight: bold;
+        }
+    }
+    .otrosDirectivos {
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 30px;
+    }
+    .instSection2{
+        border-top: solid 1px black;
+        h2{
+            text-align: center;
+            padding: 2rem;
+        }
+        .textInstSection2{
+            padding-left: 5%;
+            padding-right: 5%;
+            a{
+                font-weight: bold;
+                color: $colorSitas;
+            }
+        }
+    }
+    .backgroundInstitucional {
+        background-image: url(../img/backgroundInstutucional.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 40px;
+        a {
+            color: black;
+        }
+    }
+}
+
+/*ubicacion*/
+.mainUbicacion{
+    a{
+        color: $colorSitas;
+    }
+}
+
+/*contacto*/
+#contacto{
+    section{
+        text-align: center;
+        .mainContacto {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            background-image: url(../img/contactoFondo.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 300px;
+            h1{
+                color: white;
+            }
+        }
+        h2{
+            padding-top: 10px;
+        }
+    }
+    fieldset {
+        margin-bottom: 30px;
+        input {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
+    }
+    .accordionContacto {
+        padding-bottom: 30px;
+        h3{
+            color: $colorSitas;
+            font-weight: bold;
+        }
+    }
+}
+
+/*actividades*/
+main{
+    .actividadesDeportivas{
+        h1{
+            text-align: center;
+            color: $colorSitas;
+            padding-top: 30px;
+        }
+    }
+    #grillaActividades {
+        padding: 30px;
+        .hockey {
+            width: 95%;
+            background-image: url(../img/portadaHockey.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            max-height: 300px;
+             &:hover {
+                transform: scale(1.1, 1.1);
+                .overlay {
+                    opacity: 1;
+                }
+            }
+        }
+        .futbol {
+            width: 95%;
+            background-image: url(../img/portadaFutbol.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            max-height: 300px;
+             &:hover {
+                transform: scale(1.1, 1.1);
+                .overlay {
+                    opacity: 1;
+                }
+            }
+        }
+        .rugby {
+            width: 95%;
+            background-image: url(../img/portadaRugby.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            max-height: 300px;
+             &:hover {
+                transform: scale(1.1, 1.1);
+                .overlay {
+                    opacity: 1;
+                }
+            }
+        }
+        .natacion {
+            width: 95%;
+            background-image: url(../img/portadaNatacion.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            max-height: 300px;
+             &:hover {
+                transform: scale(1.1, 1.1);
+                .overlay {
+                    opacity: 1;
+                }
+            }
+        }
+        .tenis {
+            width: 95%;
+            background-image: url(../img/portadaTenis.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            max-height: 300px;
+             &:hover {
+                transform: scale(1.1, 1.1);
+                .overlay {
+                    opacity: 1;
+                }
+            }
+        }
+        .basquet {
+            width: 95%;
+            background-image: url(../img/portadaBasquet.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            max-height: 300px;
+             &:hover {
+                transform: scale(1.1, 1.1);
+                .overlay {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+/*deportes*/
+#deportes{
+    h1{
+        padding-top: 30px;
+        text-align: center;
+        color: $colorSitas;
+    }
+    h2{
+        color: $colorSitas;
+    }
+    .mainDeporte{
+        padding: 3rem;
+        background-image: url(../img/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .vidDeporte{
+        background: linear-gradient(90deg, rgba(63, 195, 33, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    }
+    .card{
+        height: 400px;
+        max-height: 400px;
+        background-color: #f0fff0ea;
+    }
+}
+
+/*se aplica en deportes*/
+@each $deporte in Hockey, Futbol, Rugby, Natacion, Tenis, Basquet  {
+    .imgPortadaDeporte#{$deporte}{
+        width: 100%;
+        background-image: url(../img/portada#{$deporte}.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height: 550px;
+        position: relative;
+    }
+}
