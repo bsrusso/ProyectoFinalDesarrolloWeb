@@ -108,6 +108,10 @@ header .navcontainer {
   background-color: white;
 }
 
+header .navcontainer #navbarNav {
+  padding-right: 20px;
+}
+
 div ul li a header:hover {
   font-weight: bold;
 }
