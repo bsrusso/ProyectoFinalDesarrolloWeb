@@ -401,13 +401,17 @@ main{
         background-position: center;
     }
     .vidDeporte{
-        background: linear-gradient(90deg, rgba(63, 195, 33, 1) 0%, rgba(255, 255, 255, 1) 100%);
+        background-color: white;
     }
-    .card{
-        height: 400px;
-        max-height: 400px;
-        background-color: #f0fff0ea;
+    .cartas{
+        padding: 30px;
+        .card{
+            height: 450px;
+            max-height: 500px;
+            background-color: #f0fff0ea;
+        }
     }
+    
 }
 
 /*se aplica en deportes*/
