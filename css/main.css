@@ -198,10 +198,15 @@ main .botonUnite p {
 main #elClub h1 {
   text-align: center;
   padding: 25px;
+  font-weight: bold;
 }
 
 main #elClub .imgHistoria {
   width: 100%;
+}
+
+main #elClub .elClubHistoria {
+  padding-top: 70px;
 }
 
 main #elClub .textHistoriaCostado {
