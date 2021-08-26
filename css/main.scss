@@ -1,5 +1,5 @@
 $colorSitas: rgb(9, 144, 9);
-
+/*grales*/
 *{
     margin: 0;
     padding: 0;
@@ -47,6 +47,9 @@ $colorSitas: rgb(9, 144, 9);
         font-size: 20px;
         padding: 20px;
         text-align: center;
+    }
+    .pubUnite{
+        padding: 30px;
     }
 }
 
@@ -107,6 +110,9 @@ footer{
     }
     .inputMail {
         margin-bottom: 10px;
+        border:solid 1px transparent;
+        border-color: $colorSitas;
+        border-radius: .2rem;
     }
     h4{
         color: $colorSitas;
