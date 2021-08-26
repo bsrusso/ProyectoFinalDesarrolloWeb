@@ -165,6 +165,28 @@ main{
             text-align: center;
             padding: 25px;
         }
+        .imgHistoria{
+            width: 100%;
+        }
+        .textHistoriaCostado{
+            padding-left: 30px;
+            padding-right: 30px;
+            h3{
+                color: $colorSitas;
+                padding-top: 10px;
+            }
+        }
+        .textHistoriaCentro{
+            padding-top: 5%;
+            padding-bottom: 5%;
+            h2{
+                text-align: center;
+                color: $colorSitas;
+            }
+            img{
+                max-height: 270px;
+            }
+        }
         .historiaClubIMG {
             display: block;
             width: 100%;

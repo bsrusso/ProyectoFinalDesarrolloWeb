@@ -200,6 +200,34 @@ main #elClub h1 {
   padding: 25px;
 }
 
+main #elClub .imgHistoria {
+  width: 100%;
+}
+
+main #elClub .textHistoriaCostado {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main #elClub .textHistoriaCostado h3 {
+  color: #099009;
+  padding-top: 10px;
+}
+
+main #elClub .textHistoriaCentro {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+main #elClub .textHistoriaCentro h2 {
+  text-align: center;
+  color: #099009;
+}
+
+main #elClub .textHistoriaCentro img {
+  max-height: 270px;
+}
+
 main #elClub .historiaClubIMG {
   display: block;
   width: 100%;
