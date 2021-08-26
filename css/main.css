@@ -112,18 +112,15 @@ header .navcontainer #navbarNav {
   padding-right: 20px;
 }
 
-header .navcontainer .navbar-toggler {
-  margin-right: 15px;
-}
-
-div ul li a header:hover {
+header .navcontainer #navbarNav a:hover {
   font-weight: bold;
-}
-
-li a header:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
   color: #099009 !important;
+}
+
+header .navcontainer .navbar-toggler {
+  margin-right: 15px;
 }
 
 /*footer*/
