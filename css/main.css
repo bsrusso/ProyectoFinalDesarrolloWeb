@@ -195,6 +195,10 @@ main .botonUnite p {
 }
 
 /*elClub*/
+main #elClub {
+  padding-top: 50px;
+}
+
 main #elClub h1 {
   text-align: center;
   padding: 25px;
@@ -315,6 +319,10 @@ main #elClub .aContactanos a {
 }
 
 /*ubicacion*/
+.mainUbicacion {
+  padding-top: 50px;
+}
+
 .mainUbicacion a {
   color: #099009;
 }
@@ -366,6 +374,10 @@ main #elClub .aContactanos a {
 }
 
 /*actividades*/
+main .actividadesDeportivas {
+  padding-top: 50px;
+}
+
 main .actividadesDeportivas h1 {
   text-align: center;
   color: #099009;
