@@ -1,18 +1,18 @@
 $colorSitas: rgb(9, 144, 9);
 /*grales*/
-*{
+* {
     margin: 0;
     padding: 0;
-    a{
+    a {
         text-decoration: none;
     }
-    hr{
+    hr {
         margin: 0;
     }
-    h1{
+    h1 {
         color: $colorSitas;
     }
-    h2{
+    h2 {
         color: $colorSitas;
     }
     #logoMain {
@@ -41,14 +41,14 @@ $colorSitas: rgb(9, 144, 9);
         background: rgba(0, 0, 0, 0.5);
         color: #f1f1f1;
         width: auto;
-        transition: .5s ease;
+        transition: 0.5s ease;
         opacity: 0;
         color: white;
         font-size: 20px;
         padding: 20px;
         text-align: center;
     }
-    .pubUnite{
+    .pubUnite {
         padding: 30px;
     }
 }
@@ -59,7 +59,7 @@ $colorSitas: rgb(9, 144, 9);
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-items: center!important;
+    justify-items: center !important;
     align-items: center;
     .error404msg {
         color: white;
@@ -70,58 +70,59 @@ $colorSitas: rgb(9, 144, 9);
         line-height: 1.5;
         text-align: center;
         padding: 30px;
-        h1{
+        h1 {
             color: white;
         }
     }
 }
 
 /*header*/
-header{
-        position: sticky;
-        top: -10px;
-        z-index: 999;
-        box-shadow: 0 8px 6px -6px black;
-        background-color: white;
-    .logoClub{
+header {
+    position: sticky;
+    top: -10px;
+    z-index: 999;
+    box-shadow: 0 8px 6px -6px black;
+    background-color: white;
+    .logoClub {
         width: 125px;
     }
     .navcontainer {
         background-color: white;
-        #navbarNav{
+        #navbarNav {
             padding-right: 20px;
-            & a:hover{
+            & a:hover {
                 font-weight: bold;
                 transform: scale(1.2, 1.2);
-                color: $colorSitas!important;
+                color: $colorSitas !important;
             }
         }
-        .navbar-toggler{
+        .navbar-toggler {
             margin-right: 15px;
         }
     }
 }
 
 /*footer*/
-footer{
+footer {
     padding-top: 30px;
-    .btn{
+    .btn {
         margin-bottom: 15px;
     }
     .inputMail {
         margin-bottom: 10px;
-        border:solid 1px transparent;
+        border: solid 1px transparent;
         border-color: $colorSitas;
-        border-radius: .2rem;
+        border-radius: 0.2rem;
     }
-    h4{
+    h4 {
         color: $colorSitas;
     }
 }
 
 /*index*/
-main{
-    #hero { /*carousel*/
+main {
+    #hero {
+        /*carousel*/
         height: auto;
         .imgCar {
             max-height: 40rem;
@@ -134,10 +135,10 @@ main{
         }
     }
     .contenido {
-        h1{
+        h1 {
             padding-top: 50px;
         }
-        a{
+        a {
             color: $colorSitas;
         }
     }
@@ -159,35 +160,35 @@ main{
 }
 
 /*elClub*/
-main{
-    #elClub{
-        h1{
+main {
+    #elClub {
+        h1 {
             text-align: center;
             padding: 25px;
             font-weight: bold;
         }
-        .imgHistoria{
+        .imgHistoria {
             width: 100%;
         }
-        .elClubHistoria{
+        .elClubHistoria {
             padding-top: 70px;
         }
-        .textHistoriaCostado{
+        .textHistoriaCostado {
             padding-left: 30px;
             padding-right: 30px;
-            h3{
+            h3 {
                 color: $colorSitas;
                 padding-top: 10px;
             }
         }
-        .textHistoriaCentro{
+        .textHistoriaCentro {
             padding-top: 5%;
             padding-bottom: 5%;
-            h2{
+            h2 {
                 text-align: center;
                 color: $colorSitas;
             }
-            img{
+            img {
                 max-height: 270px;
             }
         }
@@ -214,16 +215,15 @@ main{
     padding-bottom: 20px;
     .directivos {
         margin-top: 30px;
-        h4{
+        h4 {
             color: $colorSitas;
             font-weight: bold;
         }
-        h5{
+        h5 {
             color: $colorSitas;
             font-weight: bold;
-
         }
-        p{
+        p {
             font-weight: bold;
         }
     }
@@ -233,16 +233,16 @@ main{
         padding-right: 20%;
         padding-top: 30px;
     }
-    .instSection2{
+    .instSection2 {
         border-top: solid 1px black;
-        h2{
+        h2 {
             text-align: center;
             padding: 2rem;
         }
-        .textInstSection2{
+        .textInstSection2 {
             padding-left: 5%;
             padding-right: 5%;
-            a{
+            a {
                 font-weight: bold;
                 color: $colorSitas;
             }
@@ -263,15 +263,15 @@ main{
 }
 
 /*ubicacion*/
-.mainUbicacion{
-    a{
+.mainUbicacion {
+    a {
         color: $colorSitas;
     }
 }
 
 /*contacto*/
-#contacto{
-    section{
+#contacto {
+    section {
         text-align: center;
         .mainContacto {
             font-size: 2.5rem;
@@ -283,11 +283,11 @@ main{
             background-repeat: no-repeat;
             width: 100%;
             height: 300px;
-            h1{
+            h1 {
                 color: white;
             }
         }
-        h2{
+        h2 {
             padding-top: 10px;
         }
     }
@@ -302,7 +302,7 @@ main{
     }
     .accordionContacto {
         padding-bottom: 30px;
-        h3{
+        h3 {
             color: $colorSitas;
             font-weight: bold;
         }
@@ -310,9 +310,9 @@ main{
 }
 
 /*actividades*/
-main{
-    .actividadesDeportivas{
-        h1{
+main {
+    .actividadesDeportivas {
+        h1 {
             text-align: center;
             color: $colorSitas;
             padding-top: 30px;
@@ -328,7 +328,7 @@ main{
             background-repeat: no-repeat;
             height: 300px;
             max-height: 300px;
-             &:hover {
+            &:hover {
                 transform: scale(1.1, 1.1);
                 .overlay {
                     opacity: 1;
@@ -343,7 +343,7 @@ main{
             background-repeat: no-repeat;
             height: 300px;
             max-height: 300px;
-             &:hover {
+            &:hover {
                 transform: scale(1.1, 1.1);
                 .overlay {
                     opacity: 1;
@@ -358,7 +358,7 @@ main{
             background-repeat: no-repeat;
             height: 300px;
             max-height: 300px;
-             &:hover {
+            &:hover {
                 transform: scale(1.1, 1.1);
                 .overlay {
                     opacity: 1;
@@ -373,7 +373,7 @@ main{
             background-repeat: no-repeat;
             height: 300px;
             max-height: 300px;
-             &:hover {
+            &:hover {
                 transform: scale(1.1, 1.1);
                 .overlay {
                     opacity: 1;
@@ -388,7 +388,7 @@ main{
             background-repeat: no-repeat;
             height: 300px;
             max-height: 300px;
-             &:hover {
+            &:hover {
                 transform: scale(1.1, 1.1);
                 .overlay {
                     opacity: 1;
@@ -403,7 +403,7 @@ main{
             background-repeat: no-repeat;
             height: 300px;
             max-height: 300px;
-             &:hover {
+            &:hover {
                 transform: scale(1.1, 1.1);
                 .overlay {
                     opacity: 1;
@@ -413,40 +413,154 @@ main{
     }
 }
 
-
 /*deportes*/
-#deportes{
-    h1{
+#deportes {
+    h1 {
         padding-top: 30px;
         text-align: center;
         color: $colorSitas;
     }
-    h2{
+    h2 {
         color: $colorSitas;
     }
-    .mainDeporte{
+    .mainDeporte {
         padding: 3rem;
         background-image: url(../img/logo.png);
         background-repeat: no-repeat;
         background-position: center;
     }
-    .vidDeporte{
-        background-color: white;
+    .vidDeporte {
+        height: auto;
+        width: 100%;
     }
-    .cartas{
-        padding: 30px;
-        .card{
-            height: 450px;
-            max-height: 500px;
-            background-color: #f0fff0ea;
+
+    .gtco-testimonials {
+        position: relative;
+        margin-top: 30px;
+        padding-bottom: 30px;
+
+        .owl-stage-outer {
+            padding: 30px 0;
+        }
+
+        .owl-nav {
+            display: none;
+        }
+
+        .owl-dots {
+            text-align: center;
+
+            span {
+                position: relative;
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                display: block;
+                background: #fff;
+                border: 2px solid $colorSitas;
+                margin: 0 5px;
+            }
+
+            .active {
+                box-shadow: none;
+
+                span {
+                    background: $colorSitas;
+                    box-shadow: none;
+                    height: 12px;
+                    width: 12px;
+                    margin-bottom: -1px;
+                }
+            }
+        }
+
+        .card {
+            background: #fff;
+            box-shadow: 0 8px 30px -7px #c9dff0;
+            margin: 0 20px;
+            padding: 0 10px;
+            border-radius: 20px;
+            border: 0;
+
+            .card-img-top {
+                max-width: 100px;
+                border-radius: 50%;
+                margin: 15px auto 0;
+                box-shadow: 0 8px 20px -4px #95abbb;
+                width: 100px;
+                height: 100px;
+            }
+
+            h5 {
+                color: $colorSitas;
+                font-size: 21px;
+                line-height: 1.3;
+
+                span {
+                    font-size: 18px;
+                    color: #666666;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                color: #555;
+                padding-bottom: 15px;
+            }
+        }
+
+        .active {
+            opacity: 0.5;
+            transition: all 0.3s;
+        }
+
+        .center {
+            opacity: 1;
+
+            h5 {
+                font-size: 24px;
+
+                span {
+                    font-size: 20px;
+                }
+            }
+
+            .card-img-top {
+                max-width: 100%;
+                height: 120px;
+                width: 120px;
+            }
         }
     }
-    
+
+    @media (max-width: 767px) {
+        .gtco-testimonials {
+            margin-top: 20px;
+        }
+    }
+
+    .owl-carousel {
+        .owl-nav button {
+            &.owl-next,
+            &.owl-prev {
+                outline: 0;
+            }
+        }
+
+        button.owl-dot {
+            outline: 0;
+        }
+    }
+    @media (max-width: 1000px) {
+        .mainDeporte {
+            background-image: none;
+        }
+    }
 }
 
 /*se aplica en deportes*/
-@each $deporte in Hockey, Futbol, Rugby, Natacion, Tenis, Basquet  {
-    .imgPortadaDeporte#{$deporte}{
+@each $deporte in Hockey, Futbol, Rugby, Natacion, Tenis, Basquet {
+    .imgPortadaDeporte#{$deporte} {
         width: 100%;
         background-image: url(../img/portada#{$deporte}.jpg);
         background-position: center;

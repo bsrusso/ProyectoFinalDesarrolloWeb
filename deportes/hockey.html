@@ -14,6 +14,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="../favicon.png" type="image/png" />
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
 
 <body>
@@ -105,54 +106,67 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid vidDeporte">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <video src="../video/hockeyx.mp4" autoplay muted loop height="auto" width="100%"></video>
                 </div>
             </div>
-            <!---->
-            <div class="container-fluid d-flex justify-content-center mt-100 cartas">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body text-center"> <img src="../img/betoDT.jpg" class="rounded-circle"
-                                    width="200" height="200">
-                                <h5 class="card-title mt-2 mb-1">Beto de Bianchetti</h5> <span
-                                    class="fs-2 mb-3 font-weight-bold">Entrenador</span>
-                                <p class="mb-3 mt-3">"Desde el día que llegué al club me sentí cómodo con el plantel"
-                                </p>
-                            </div>
+        </div>
+        <!---->
+        <div class="gtco-testimonials">
+            <div class="owl-carousel owl-carousel1 owl-theme">
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="../img/betoDT.jpg"
+                            alt="Entrenador Hockey">
+                        <div class="card-body">
+                            <h5>Beto de Bianchetti <br />
+                                <span> Entrenador </span>
+                            </h5>
+                            <p class="card-text">“ Desde que llegué al club me sentí cómodo con el grupo. Planeo seguir
+                                muchos años más. ” </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body text-center"> <img src="../img/agusCapitan.jpg" class="rounded-circle"
-                                    width="200" height="200">
-                                <h5 class="card-title mt-2 mb-1">Agustín Suarez</h5> <span
-                                    class="fs-2 mb-3 font-weight-bold">Capitán de 1º división</span>
-                                <p class="mb-3 mt-3">"S.I.T.A.S es nuestra segunda casa. Siempre lo vamos a dejar todo"
-                                </p>
-                                </ul>
-                            </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="../img/agusCapitan.jpg"
+                            alt="Capitan Hockey Masculino">
+                        <div class="card-body">
+                            <h5>Agustín Suarez<br />
+                                <span> Capitán y jugador de 1era división </span>
+                            </h5>
+                            <p class="card-text">“ S.I.T.A.S es nuestra segunda casa. Siempre vamos a dar todo por estos
+                                colores. ” </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body text-center"> <img src="../img/arqueraHockey.jpg"
-                                    class="rounded-circle" width="200" height="200">
-                                <h5 class="card-title mt-2 mb-1">Daniela Orsi</h5> <span
-                                    class="fs-2 mb-3 font-weight-bold">Arquera 1º división</span>
-                                <p class="mb-3 mt-3">"Desde el 2007 vistiendo estos colores y no los cambio por nada"
-                                </p>
-                            </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="../img/arqueraHockey.jpg"
+                            alt="Arquera Hockey">
+                        <div class="card-body">
+                            <h5>Daniela Orsi<br />
+                                <span> Arquera de 1era división </span>
+                            </h5>
+                            <p class="card-text">“ Desde 2008 defendiendo estos colores y no los cambio por nada en el
+                                mundo. ” </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card text-center"><img class="card-img-top" src="../img/macaJugadoraHockey.jpg"
+                            alt="Jugadora Hockey">
+                        <div class="card-body">
+                            <h5>Macarena Spinetta<br />
+                                <span> Jugadora de 1era división </span>
+                            </h5>
+                            <p class="card-text">“ Es un placer formar parte de esta familia. Los elegiría siempre. ”
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!---->
         </div>
-
+        <!---->
         <!--navbar deportes-->
         <nav class="navbar navbar-light navDeportes">
             <div class="container-fluid justify-content-center">
@@ -221,8 +235,10 @@
         AOS.init({
             once: true
         });
-
     </script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 
 </html>
